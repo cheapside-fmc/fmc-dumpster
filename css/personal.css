@@ -1,0 +1,206 @@
+﻿/* (4) Similar fonts on all pages */
+/* (14) At least two different fonts declared, each with at least two fallbacks declared */
+html {
+        font-family: tahoma, arial, sans-serif;
+}
+.monospace {
+        font-family: "inconsolata sans", courier, serif;
+}
+
+
+body {
+        /* (16) At least one background gradient */
+        background-image: url('../images/gradient.jpg');
+        background-repeat: repeat-x;
+        /* (17) At least four Hex colors used in text or background */
+        background-color: #447CE5;
+}
+
+
+div {
+        padding: 10px;
+        /* (1) Left and right auto margins set to center pages horizontally */
+        /* (23) At least two instances of margin properties declared with shorthand */
+        margin: 10px auto;
+        text-align: center;
+}
+
+
+ol {
+        text-align: left;
+}
+
+
+h1 {
+        /* (17) At least four Hex colors used in text or background */
+        color: #FEF5E6;
+}
+
+
+/* (21) Four link state styles declared */
+/* (24) At least one instance of multiple CSS selectors styled in a single declaration */
+a:link, a:visited {
+        color: black;
+        /* (15) At least one instance of text-decoration */
+        text-decoration: blink;
+}
+
+
+/* (4) Similar colors on all pages */
+.background1 {
+        /* (17) At least four Hex colors used in text or background */
+        background-color: #BED6FE
+}
+.background2 {
+        background-color: #E6BEFE
+}
+.background3 {
+        /* (17) At least four Hex colors used in text or background */
+        background-color: #FEBED6
+}
+.background4 {
+        background-color: #FEE6BE
+}
+
+
+/* (21) Four link state styles declared */
+.current, a:hover, a:active {
+        text-decoration: blink;
+        color: #000696;
+}
+
+
+.current {
+        /* (15) At least one instance of font-weight */
+        font-weight: bold;
+}
+
+
+.floatleft {
+        float: left;
+}
+                
+.floatright {
+        float: right;
+}
+
+
+.clearfloat {
+        clear: both;
+        width: 1728px;
+        height: 0px;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+}
+                
+.pagehead {
+        /* (23) At least two instances of margin properties declared with shorthand */
+        margin: 50px auto 20px auto;
+        /* (15) At least one instance of font-style */
+        font-style: italic;
+        background-color: #447CE5;
+        width: 960px;
+        /* (23) At least two instances of border properties declared with shorthand */
+        border: 5px solid #000852;
+}
+
+
+.menutable {
+        width: 960px; 
+        margin: auto; 
+        text-align: center; 
+        font-size: 20px;
+        /* (23) At least two instances of border properties declared with shorthand */
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        /* (23) At least two instances of padding properties declared with shorthand */
+        padding: 7px 0px;
+}
+
+
+.menuoption {
+        width: 25%;
+        font-size: 20px;
+}
+
+
+.mainnest {
+        /* (1) 960px wide pages */
+        width: 960px; 
+        background-color: transparent;
+        margin: 0px auto 10px auto;
+        padding: 10px;
+}
+
+
+.homecolumn {
+        width: 30%;
+        height: 475px;
+        /* (23) At least two instances of padding properties declared with shorthand */
+        padding: 0px 10px 10px 10p;
+        margin: 0px auto 10px auto;
+}
+
+
+.maincolumn {
+        width: 940px;
+}
+        
+.mid {
+        margin: 20px 0px 0px 0px;
+}
+
+
+.listdiv {
+        width: 40%;
+        margin: auto;
+        border: 0px;
+}
+
+
+.fieldtable {
+        border-collapse: collapse;
+        margin: auto;
+        width: 720px;
+        text-align: center;
+}
+
+
+.fieldsmall {
+        width: 15%;
+}
+
+
+.fieldbig {
+        width: 35%;
+}
+
+
+.warningdiv {
+        color: red;
+        border: 0px; 
+        margin: 0px; 
+        padding: 10px; 
+        width: 100%; 
+        /* (16) At least one background image */
+        background-image: url('../images/stressmannetje.png');
+        /* (19) At least one element using relative positioning */
+        position: relative; 
+        right: 10px; 
+        top: 10px;
+        z-index: 1;
+}
+
+
+.disclaimerdiv {
+        height: 100px;
+        width: 100px;
+        padding: 0px;
+        margin: 0px;
+        /* (19) At least one element using absolute positioning */
+        position: absolute;
+        right: 21%;
+        top: 50px;
+        z-index: 1;
+}
